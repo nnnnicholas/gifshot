@@ -238,7 +238,7 @@ AnimatedGIF.prototype = {
 
           onRenderProgressCallback(0.75 + 0.25 * frame.position * 1.0 / frames.length);
 
-          for (let i = 0; i < frameDuration; i ++) {
+          for (let i = 0; i < frameDuration; i++) {
               gifWriter.addFrame(0, 0, width, height, frame.pixels, {
                   palette: framePalette,
                   delay: delay
